@@ -5,25 +5,25 @@
 }
    
 
-.minu-bar{
+.menu-bar{
     background-color: black;
     text-align: left;
    
 }
-.minu-bar ul{
+.menu-bar ul{
     
    
     list-style: none;
    
 }
-.minu-bar ul li{
+.menu-bar ul li{
     display: inline-block;
     /* white-space: normal; */
     width: 100px;
     padding: 5px;
     
 }
-.minu-bar ul li a{
+.menu-bar ul li a{
     text-decoration: none;
     color: white;
    
@@ -32,30 +32,42 @@
     background-color: cadetblue;
     color: white;
 } */
-.minu-bar ul li a .fas{
-    margin-right: 12px;
-}
-.active, .minu-bar ul li:hover{
+
+.active, .menu-bar ul li:hover{
 background-color: teal;
 border-radius: 4px;
 letter-spacing: 3px;
 color: burlywood;
 }
+.menu-bar .fas{
+    margin-right: 12px;
+}
 .sub-menu1{
     display: none;
 }
-.minu-bar ul li:hover .sub-menu1{
+.menu-bar ul li:hover .sub-menu1{
 display: inline-block;
-
 position: absolute;
 background-color: darkcyan;
-margin-top: 20px;
-margin-left: -20px;
+margin-top: 15px;
+margin-left: -15px;
+
 }
-.minu-bar ul li:hover .sub-menu1 ul
+.menu-bar ul li:hover .sub-menu1 ul
+{
+    /* display: block; */
+    /* position: absolute; */
+    margin: 1px;
+    
+}
+.menu-bar ul li:hover .sub-menu1 ul li
 {
     display: block;
-    margin: 10px;
+    margin: 1px;
+    border: 1px solid gainsboro;
+    background-color: rgb(0, 71, 71);
+    opacity: 60%;
+    color: lavender;
 }
 .img1{
     height: 550px;
