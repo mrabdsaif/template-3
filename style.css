@@ -8,13 +8,13 @@
 .menu-bar{
     background-color: black;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
    
 }
 .menu-bar ul{
-    
-   
     list-style: none;
-   
 }
 .menu-bar ul li{
     display: inline-block;
@@ -39,7 +39,7 @@ border-radius: 4px;
 letter-spacing: 3px;
 color: burlywood;
 }
-.menu-bar .fas{
+.menu-bar .margin-12{
     margin-right: 12px;
 }
 .sub-menu1{
@@ -72,4 +72,12 @@ margin-left: -15px;
 .img1{
     height: 550px;
     width: 100%;
+}
+.search{
+    background-color: teal;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    width: auto;
+    
 }
